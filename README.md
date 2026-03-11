@@ -1,4 +1,4 @@
-# Portfolio Rebalancer
+# ETF Portfolio Analyzer
 
 When building a portfolio of ETFs, it's easy to end up with unintended concentration. For example, the S&P 500 currently has ~35% of its weight in just 10 companies, and multiple ETFs in your portfolio may all hold the same underlying stocks. This tool helps you see through that — by scraping sector and geographic allocation data from [JustETF.com](https://www.justetf.com/) for each ETF and aggregating it across your whole portfolio.
 
