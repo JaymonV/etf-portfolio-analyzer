@@ -1,0 +1,23 @@
+{
+  "regions": {
+    "United States": 50,
+    "Europe": 26,
+    "Japan": 8,
+    "Developed Asia-Pacific (ex-Japan)": 6,
+    "Canada": 3,
+    "Emerging Markets": 7
+  },
+  "sectors": {
+    "Technology": 17,
+    "Financials": 15,
+    "Industrials": 13,
+    "Health Care": 10,
+    "Consumer Staples": 9,
+    "Consumer Discretionary": 8,
+    "Telecommunication": 8,
+    "Energy": 7,
+    "Real Estate": 5,
+    "Materials": 4,
+    "Utilities": 4
+  }
+}

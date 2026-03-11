@@ -1,0 +1,35 @@
+[project]
+name = "etf-portfolio-analyzer"
+version = "1.0.0"
+description = "Scrape sector and geographic allocation from JustETF for your portfolio"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "GNU General Public License v3.0"}
+
+dependencies = [
+    "pandas>=1.5.0,<3.0.0",
+    "selenium>=4.0.0,<5.0.0",
+    "beautifulsoup4>=4.9.0,<5.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/jaymonv/etf-portfolio-analyzer"
+Repository = "https://github.com/jaymonv/etf-portfolio-analyzer"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --cov=src --cov-report=term-missing"
