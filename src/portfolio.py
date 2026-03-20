@@ -55,11 +55,12 @@ class Portfolio:
     """
 
     # Column indices in the Degiro CSV export (language-agnostic)
-    # 0: product name, 1: symbol/ISIN, 2: quantity, 3: value in EUR
+    # 0: product name, 1: symbol/ISIN, 2: quantity, 3: close price,
+    # 4: local value, 5: currency, 6: value in EUR
     COL_PRODUCT = 0
     COL_ISIN = 1
     COL_QUANTITY = 2
-    COL_VALUE = 3
+    COL_VALUE = 6
     MIN_COLUMNS = 4
 
     # Output column names after loading
